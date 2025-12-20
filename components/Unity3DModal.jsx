@@ -12,7 +12,7 @@ const Unity3DModal = ({ isOpen, onClose }) => {
       const userConfirm = confirm("Unity uygulaması yüklü değilse, indirmek ister misiniz?")
       if (userConfirm) {
         // Unity build indirme linki
-        window.open("/downloads/SkyRoverX_3DViewer.zip", "_blank")
+        window.open("/SkyRover-X.unitypackage", "_blank")
       }
     }, 2000)
   }
